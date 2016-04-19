@@ -17,7 +17,7 @@ module.exports = function(_options) {
     }
 
     var throwError = function() {
-        throw options.Error(options.message);
+        throw new options.Error(options.message);
     };
 
     client.incrAsync = Promise.promisify(client.incr);
