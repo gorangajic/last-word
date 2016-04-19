@@ -3,6 +3,9 @@
 > promise based redis request limiter
 
 <img src="https://rawgit.com/gorangajic/last-word/master/last-word.png" width="60" alt="Last Word">
+
+[![Build Status](https://semaphoreci.com/api/v1/gorangajic/last-word/branches/master/badge.svg)](https://semaphoreci.com/gorangajic/last-word)
+
 ```
     npm install last-word --save
 ```
