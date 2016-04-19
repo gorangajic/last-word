@@ -1,0 +1,36 @@
+{
+  "name": "last-word",
+  "version": "1.0.0",
+  "description": "promise based redis request limiter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gorangajic/last-word.git"
+  },
+  "keywords": [
+    "redis",
+    "request",
+    "limiter",
+    "block"
+  ],
+  "author": "Goran Gajic <fero.null@gmail.com> (https://github.com/gorangajic)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gorangajic/last-word/issues"
+  },
+  "homepage": "https://github.com/gorangajic/last-word#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "chai-as-promised": "5.3.0",
+    "mocha": "2.4.5",
+    "redis": "2.6.0-1"
+  },
+  "dependencies": {
+    "bluebird": "3.3.5",
+    "defaults": "1.0.3",
+    "ms": "0.7.1"
+  }
+}
